@@ -4,7 +4,7 @@
     "slug": "bolo-de-cenoura-fofinho",
     "recipeTitle": "Bolo de Cenoura Fofinho",
     "recipeSubtitle": "Super macio, leve e com cobertura cremosa de chocolate.",
-    "img": "../images/bolo-cenoura-fofinho.jpg",
+    "img": "bolo-cenoura-fofinho.jpg",
     "ingredients": [
       {
         "group": "Massa",
@@ -49,7 +49,7 @@
     "slug": "bolo-de-cenoura",
     "recipeTitle": "Bolo de Cenoura",
     "recipeSubtitle": "Receita clássica, fofinha e com cobertura de chocolate.",
-    "img": "../images/bolo-cenoura.webp",
+    "img": "bolo-cenoura.webp",
     "ingredients": [
       {
         "group": "Massa",
@@ -89,7 +89,7 @@
     "slug": "bolo-de-chocolate-simples",
     "recipeTitle": "Bolo de Chocolate Simples",
     "recipeSubtitle": "Receita fácil, rápida e perfeita para o café da tarde.",
-    "img": "../images/bolo-chocolate-simples.webp",
+    "img": "bolo-chocolate-simples.webp",
     "ingredients": [
       {
         "group": "Massa",
@@ -134,7 +134,7 @@
     "slug": "bolo-de-chocolate-de-liquidificador",
     "recipeTitle": "Bolo de Chocolate de Liquidificador",
     "recipeSubtitle": "Prático e rápido, perfeito para quem quer um bolo delicioso sem complicação.",
-    "img": "../images/bolo-de-chocolate-de-liquidificador.webp",
+    "img": "bolo-de-chocolate-de-liquidificador.webp",
     "ingredients": [
       {
         "group": "Massa",
@@ -178,7 +178,7 @@
     "slug": "brownie-de-caneca",
     "recipeTitle": "Brownie de Caneca",
     "recipeSubtitle": "Rápido, delicioso e pronto em minutos direto no micro-ondas.",
-    "img": "../images/brownie-caneca.jpg",
+    "img": "brownie-caneca.jpg",
     "ingredients": [
       {
         "group": "Ingredientes",
@@ -212,7 +212,7 @@
     "slug": "brownie-de-chocolate-na-air-fryer",
     "recipeTitle": "Brownie de Chocolate na Air Fryer",
     "recipeSubtitle": "Delicioso e rápido, assado na air fryer para ficar macio e crocante.",
-    "img": "../images/brownie-de-chocolate-na-air-fryer.webp",
+    "img": "brownie-de-chocolate-na-air-fryer.webp",
     "ingredients": [
       {
         "group": "Ingredientes",
@@ -248,7 +248,7 @@
     "slug": "brownie-fitness",
     "recipeTitle": "Brownie Fitness",
     "recipeSubtitle": "Uma versão saudável e deliciosa, ideal para quem quer manter a forma.",
-    "img": "../images/brownie-fitness.jpg",
+    "img": "brownie-fitness.jpg",
     "ingredients": [
       {
         "group": "Ingredientes",
@@ -282,7 +282,7 @@
     "slug": "brownie-super-fácil",
     "recipeTitle": "Brownie Super Fácil",
     "recipeSubtitle": "Rápido, prático e delicioso — ideal para qualquer hora do dia.",
-    "img": "../images/brownie-super-facil.jpg",
+    "img": "brownie-super-facil.jpg",
     "ingredients": [
       {
         "group": "Ingredientes",
