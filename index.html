@@ -1,87 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="main.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>
-            Bruno receitas
-        </h1>
+      <h1>Bruno receitas</h1>
     </header>
-    <main class="container">
-    </main>
+    <main class="container"></main>
+
+    <footer class="site-footer">
+      <p>© 2026 - Bruno Receitas</p>
+    </footer>
 
     <script>
-        const recipes = [
-            {
-                src: './images/bolo-cenoura.webp',
-                name: 'Bolo de cenoura',
-                description: 'Clássica receita de bolo de cenoura simples e fácil',
-                href: './recipesPage/bolo-cenoura.html'
-            },
-            {
-                src: './images/bolo-chocolate-simples.webp',
-                name: 'Bolo de chocolate simples',
-                description: 'Clássica receita de bolo de chocolate simples e fácil',
-                href: './recipesPage/bolo-chocolate-simples.html'
-            },
-            {
-                src: './images/bolo-cenoura-fofinho.jpg',
-                name: 'Bolo de cenoura fofinho',
-                description: 'As receitas de bolo de cenoura são um dos nossos maiores sucessos!',
-                href: './recipesPage/bolo-cenoura-fofinho.html'
-            },
-            {
-                src: './images/bolo-de-chocolate-de-liquidificador.webp',
-                name: 'Bolo de chocolate de liquidificador',
-                description: 'Receita prática feita no liquidificador.',
-                href: './recipesPage/bolo-de-chocolate-de-liquidificador.html'
-            },
-            {
-                src: './images/brownie-caneca.jpg',
-                name: 'Brownie de caneca',
-                description: 'Brownie rápido feito no micro-ondas.',
-                href: './recipesPage/brownie-caneca.html'
+      const recipes = [
+        {
+          src: "./images/bolo-cenoura.webp",
+          name: "Bolo de cenoura",
+          description: "Clássica receita de bolo de cenoura simples e fácil",
+          href: "./recipesPage/bolo-cenoura.html",
+        },
+        {
+          src: "./images/bolo-chocolate-simples.webp",
+          name: "Bolo de chocolate simples",
+          description: "Clássica receita de bolo de chocolate simples e fácil",
+          href: "./recipesPage/bolo-chocolate-simples.html",
+        },
+        {
+          src: "./images/bolo-cenoura-fofinho.jpg",
+          name: "Bolo de cenoura fofinho",
+          description:
+            "As receitas de bolo de cenoura são um dos nossos maiores sucessos!",
+          href: "./recipesPage/bolo-cenoura-fofinho.html",
+        },
+        {
+          src: "./images/bolo-de-chocolate-de-liquidificador.webp",
+          name: "Bolo de chocolate de liquidificador",
+          description: "Receita prática feita no liquidificador.",
+          href: "./recipesPage/bolo-de-chocolate-de-liquidificador.html",
+        },
+        {
+          src: "./images/brownie-caneca.jpg",
+          name: "Brownie de caneca",
+          description: "Brownie rápido feito no micro-ondas.",
+          href: "./recipesPage/brownie-caneca.html",
+        },
+        {
+          src: "./images/brownie-de-chocolate-na-air-fryer.webp",
+          name: "Brownie na air fryer",
+          description: "Brownie fácil e crocante na air fryer.",
+          href: "./recipesPage/brownie-de-chocolate-na-air-fryer.html",
+        },
+        {
+          src: "./images/brownie-fitness.jpg",
+          name: "Brownie fitness",
+          description: "Versão saudável e deliciosa de brownie.",
+          href: "./recipesPage/brownie-fitness.html",
+        },
+        {
+          src: "./images/brownie-super-facil.jpg",
+          name: "Brownie super fácil",
+          description: "Receita simples com poucos ingredientes.",
+          href: "./recipesPage/brownie-super-facil.html",
+        },
+      ];
+      const container = document.querySelector(".container");
 
-            },
-            {
-                src: './images/brownie-de-chocolate-na-air-fryer.webp',
-                name: 'Brownie na air fryer',
-                description: 'Brownie fácil e crocante na air fryer.',
-                href: './recipesPage/brownie-de-chocolate-na-air-fryer.html'
-            },
-            {
-                src: './images/brownie-fitness.jpg',
-                name: 'Brownie fitness',
-                description: 'Versão saudável e deliciosa de brownie.',
-                href: './recipesPage/brownie-fitness.html'
-            },
-            {
-                src: './images/brownie-super-facil.jpg',
-                name: 'Brownie super fácil',
-                description: 'Receita simples com poucos ingredientes.',
-                href: './recipesPage/brownie-super-facil.html'
-            }
-        ];
-        const container = document.querySelector(".container");
-        
-        container.innerHTML = recipes
-        .map(recipe => `
-        <a href=${recipe.href} target="_blank">
-            <div class="card">
-                <img src="${recipe.src}" class="card-image"/>
-                <div class="card-description">
-                    <h2>${recipe.name}</h2>
-                    <span>${recipe.description}</span>
+      container.innerHTML = recipes
+        .map(
+          (recipe) => `
+            <a href=${recipe.href} target="_blank">
+                <div class="card">
+                    <img src="${recipe.src}" class="card-image"/>
+                    <div class="card-description">
+                        <h2>${recipe.name}</h2>
+                        <p>${recipe.description}</p>
+                    </div>
                 </div>
-            </div>
             </a>
-        `)
-        .join('');
+        `,
+        )
+        .join("");
     </script>
-</body>
+  </body>
 </html>
