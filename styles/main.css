@@ -30,7 +30,7 @@ header {
   justify-content: center;
 }
 
-header > h1 {
+header h1 {
   color: white;
   font-size: 16px;
   text-transform: uppercase;
